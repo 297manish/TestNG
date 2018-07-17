@@ -1,0 +1,12 @@
+<suite name="Test Groups">
+	<test name="Group Test">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="test.groups.TestGroups" />
+		</classes>
+	</test>
+</suite>
